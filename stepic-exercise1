@@ -2,3 +2,6 @@
 movq %RSI, %RAX
 movq %RDX, %RSI
 movq %RAX, %RDX
+
+// mov - перемещение данных из одного регистра в другой. 
+// movq - q: работа с 64 битной OS
