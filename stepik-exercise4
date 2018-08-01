@@ -1,0 +1,4 @@
+// Put your code here
+pushq %RDX      // положить х из RDX в стек
+movq %RSI, %RDX // положить y из RSI в RDX
+popq %RSI       // удалить х из стека и положить в RSI
